@@ -1,8 +1,12 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String args[]){
+
+
+       // ArrayList<Student> list= new ArrayList<Student>();
 
         int menu_num;
         boolean run=true;
