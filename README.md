@@ -9,3 +9,8 @@ Arraylist란 ?
 - 엘레멘트 변경 set() 메소드
 - 엘레멘트 삭제 remove() 메소드
     
+
+- view(), upload() : 1차 완료
+- update(), delete() : 
+- 파일 불러오기 (fileservice) : 
+
