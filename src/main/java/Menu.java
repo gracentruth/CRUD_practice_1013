@@ -3,12 +3,8 @@ import java.util.Scanner;
 
 
 public class Menu {
-
-
-
     private ArrayList<Student> myList=new ArrayList<Student>();
     int id=0;
-
 
     Scanner sc=new Scanner(System.in);
 
@@ -58,6 +54,11 @@ public class Menu {
     }
 
     public void update(){
+
+        if (this.myList.size() == 0) {
+            System.out.println("등록된 학생이 없습니다.");
+            return;
+        }
        view();
 
        System.out.println("수정할 학생의 id를 입력하세요");
@@ -78,6 +79,18 @@ public class Menu {
     }
 
     public void delete(){
-        System.out.println("delete");
+        if (this.myList.size() == 0) {
+            System.out.println("등록된 학생이 없습니다.");
+            return;
+        }
+
+        view();
+
+        System.out.println("수정할 학생의 id를 입력하세요");
+        int delete_num=sc.nextInt();
+
+        this.myList.remove(delete_num-1);
+        System.out.println("삭제가 완료되었습니다.");
+
     }
 }

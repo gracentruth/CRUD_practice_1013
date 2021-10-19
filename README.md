@@ -12,7 +12,8 @@ Arraylist란 ?
 - 출력 for each문 : 항목변수를 (항목변수 선언:배열명)으로 받는다.
     
 
-- view(), upload() : 1차 완료
-- update(), delete() : 
+- view(), upload() : 완료 (10/13)
+- update(), delete() : 완료 (10/19)
 - 파일 불러오기 (fileservice) : 
+
 
