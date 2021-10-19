@@ -32,6 +32,7 @@ public class Menu {
             System.out.println("등록된 학생이 없습니다.");
             return;
         }
+
         System.out.println("ID | 학년 반 번호 이름");
         for (Student s : this.myList) {
             System.out.println(s.toString());
@@ -57,7 +58,22 @@ public class Menu {
     }
 
     public void update(){
-        System.out.println("update");
+       view();
+
+       System.out.println("수정할 학생의 id를 입력하세요");
+       int update_num=sc.nextInt();
+
+        System.out.println("학년 입력:");
+        this.myList.get(update_num-1).setGrade(sc.nextInt());
+        System.out.println("반 입력:");
+        this.myList.get(update_num-1).setClass_num(sc.nextInt());
+        System.out.println("번호 입력:");
+        this.myList.get(update_num-1).setNum(sc.nextInt());
+        System.out.println("이름 입력:");
+        this.myList.get(update_num-1).setName(sc.next());
+
+        System.out.println("수정이 완료되었습니다.");
+
 
     }
 
