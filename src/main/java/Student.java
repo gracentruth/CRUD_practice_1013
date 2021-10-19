@@ -19,7 +19,7 @@ public class Student {
     }
 
     public String toString(){
-        return this.id+this.grade+"학년"+this.class_num+"반"+this.num+"번"+this.name;
+        return " "+this.id+" |"+this.grade+"학년 "+this.class_num+"반 "+this.num+"번 "+this.name;
     }
 
     public int getId() {

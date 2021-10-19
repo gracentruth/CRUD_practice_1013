@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Menu {
 
+
+
     private ArrayList<Student> myList=new ArrayList<Student>();
+    int id=0;
 
 
     Scanner sc=new Scanner(System.in);
@@ -29,7 +32,7 @@ public class Menu {
             System.out.println("등록된 학생이 없습니다.");
             return;
         }
-        System.out.println("No | 이름 생년월일 학년 반  번호 등교시간 하교시간");
+        System.out.println("ID | 학년 반 번호 이름");
         for (Student s : this.myList) {
             System.out.println(s.toString());
 
@@ -39,8 +42,8 @@ public class Menu {
     public void upload(){
         //System.out.println("upload");
         Student s=new Student();
-        System.out.println("id 입력:");
-        s.setId(sc.nextInt());
+        id=id+1;
+        s.setId(id);
         System.out.println("학년 입력:");
         s.setGrade(sc.nextInt());
         System.out.println("반 입력:");
@@ -55,6 +58,7 @@ public class Menu {
 
     public void update(){
         System.out.println("update");
+
     }
 
     public void delete(){
