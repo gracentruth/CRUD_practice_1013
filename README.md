@@ -14,6 +14,6 @@ Arraylist란 ?
 
 - view(), upload() : 완료 (10/13)
 - update(), delete() : 완료 (10/19)
-- 파일 불러오기 (fileservice) : 
+- 파일 불러오기 (fileservice) : 미완료
 
 
