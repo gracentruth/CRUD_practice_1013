@@ -17,3 +17,6 @@ Arraylist란 ?
 - 파일 불러오기 (fileservice) : 미완료    
 
 
+* 파일 객체 사용 
+
+객체 생성 방법 : File 파일명 = new File(파일 경로 )

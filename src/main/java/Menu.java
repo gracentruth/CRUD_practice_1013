@@ -3,7 +3,13 @@ import java.util.Scanner;
 
 
 public class Menu {
-    private ArrayList<Student> myList=new ArrayList<Student>();
+
+    ArrayList<Student> myList;
+
+
+    Menu(ArrayList<Student> myList){
+        this.myList=myList;
+    }
     int id=0;
 
     Scanner sc=new Scanner(System.in);
