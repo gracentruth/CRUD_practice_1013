@@ -53,6 +53,10 @@ public class Main {
                    m.delete();
                    break;
 
+               case 5:
+                   fs.SaveFile(list);
+                   break;
+
                case 0:
                    System.out.println("종료");
                    run = false;

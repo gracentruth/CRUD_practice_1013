@@ -22,6 +22,10 @@ public class Student {
         return " "+this.id+" |"+this.grade+"학년 "+this.class_num+"반 "+this.num+"번 "+this.name;
     }
 
+    public String toFString() {
+        return this.grade+"-"+this.class_num+"-"+this.num+"-"+this.name;
+    }
+
     public int getId() {
         return id;
     }
@@ -61,4 +65,6 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

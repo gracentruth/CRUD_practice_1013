@@ -22,6 +22,7 @@ public class Menu {
         System.out.println("2. 업로드");
         System.out.println("3. 수정");
         System.out.println("4. 삭제");
+        System.out.println("5. 저장");
         System.out.println("0. 종료");
         System.out.println("-------------");
         System.out.print("선택할 메뉴는?");

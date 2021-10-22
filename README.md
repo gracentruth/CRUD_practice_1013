@@ -20,3 +20,12 @@ Arraylist란 ?
 * 파일 객체 사용 
 
 객체 생성 방법 : File 파일명 = new File(파일 경로 )
+
+파일 불러오기
+
+BufferReader(입력버퍼)와 FileReader(입력스트)
+
+파일의 내용을 한줄씩 읽을때는 버퍼를 이용해서 읽는다 
+
+1. FileReader(File file) 
+: character 파일을 읽을 수 있는 기능 제공
